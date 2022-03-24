@@ -1,0 +1,9 @@
+#set a variable sum as the sum of the point number
+sum=0
+#count it is the nth triangle
+if n in range(10):
+#add them together from 1 to n
+  sum += sum+1
+#print
+  print(sum())
+  

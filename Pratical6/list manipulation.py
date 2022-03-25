@@ -33,4 +33,10 @@ showfliers=True,
 notch=False)
 # show the plot
 plt.show()
-
+# calculate the mean
+M=np.mean(marks)
+# campare the mean with 60%
+if M>=60:
+  print("Rob can pass it")
+if M<60:
+  print("Rob can not pass it")

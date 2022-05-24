@@ -13,7 +13,7 @@ n=np.array(marks)
 score=n
 # draw a boxplot
 plt.boxplot(
-# x values are scores
+# y values are scores
 score,
 # the boxplot should be vertical to the x aixs
 vert=True,
@@ -31,6 +31,9 @@ showcaps=True,
 showfliers=True,
 # the boxplot should be shown in normal way
 notch=False)
+#label the boxplot
+plt.title("IBI score of Rob")
+plt.ylabel('scores')
 # show the plot
 plt.show()
 # calculate the mean

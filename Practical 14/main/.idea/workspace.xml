@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d20c8c25-4c7b-4425-8c47-0f80af565807" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/../../Pratical7/.idea/Pratical7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical 10/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practical 10/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical 10/ZJE human resources database.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practical 10/ZJE human resources database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical 10/main/.idea/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical 10/main/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical 10/main/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical 11/Alignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practical 11/Alignment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical10/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical10/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical10/.idea/Practical10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical10/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical10/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical10/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical10/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical10/Alignment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical10/DLX5_human.fa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical10/DLX5_mouse.fa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical10/RandomSeq(1).fa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical4/thingsIlike.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practical4/thingsIlike.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pratical 9/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pratical5/mystery_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pratical5/mystery_code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pratical5/pizza_party.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pratical5/pizza_party.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pratical5/pizza_party1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pratical5/triangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pratical5/triangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pratical5/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pratical5/variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pratical6/list manipulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pratical6/list manipulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pratical6/paternal age effect.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pratical6/paternal age effect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pratical7/file covid.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pratical7/file covid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pythonProject 10/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pythonProject/main.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="29anpV2J5aZyFlbYorxKpbQX0qt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d20c8c25-4c7b-4425-8c47-0f80af565807" name="Changes" comment="" />
+      <created>1653360246546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653360246546</updated>
+    </task>
+    <servers />
+  </component>
+</project>

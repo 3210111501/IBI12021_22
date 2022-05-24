@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer:priduce a integer randomly between 1 and 100
+# Answer:produce ten integers randomly between 1 and 100 and show the last one
 
 # Import libraries
 # randint allows drawing a random number,

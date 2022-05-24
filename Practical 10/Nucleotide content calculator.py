@@ -7,13 +7,13 @@ def percentage(x):
     d=0
 #calculate how many times each base appear
     for i in range(len(x)):
-        if x[i]=='A':
+        if x[i]=='A'or x[i]=='a':
            a=a+1
-        if x[i]=='T':
+        if x[i]=='T'or x[i]=='t':
             b=b+1
-        if x[i]=='C':
+        if x[i]=='C'or x[i]=='c':
             c=c+1
-        if x[i]=='G':
+        if x[i]=='G'or x[i]=='g':
             d=d+1
     print(a,b,c,d)
 #calculate the account each kind of base takes in all the bases

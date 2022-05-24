@@ -6,12 +6,12 @@ class Staff:
         self.l=location
         self.r=role
 
-    def staffinformation(self,firstname,lastname,location,role):
-        print(firstname,lastname,",",location,",",role)
+    def staffinformation(self):
+        print(self.fn,self.ln,",",self.l,",",self.r)
 #with a example(Robert Holmes, International Campus, faculty) to conduct the class
-s=Staff("Robert","Holmes","International Campus","faculty")
 Staff1 = Staff("Robert","Holmes","International Campus","faculty")
-staffinformation_=s.staffinformation("Robert","Holmes","International Campus","faculty")
+Staff1.staffinformation()
+
 
 
 

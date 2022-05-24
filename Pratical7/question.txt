@@ -1,0 +1,10 @@
+The question I choose is the first one "How have new cases and total cases developed over time in Spain".
+In the script, the answer to the question is from line 76 to line 90.
+The plot shows that both the new cases and total cases in Spain are increasing over time. Especially after March 10th, the case number has a very quick increase. 
+It is beyond my expectation because it has a high level of the health care system. After reading some reports about it, there are two main reasons which cause this problem.
+The first one is that on about March 6th, the epidemic situation in Italy is serious, which is the neighbor country. Another reason is that many people held the activities on March 8th. These things may cause the abruptness of the epidemic.
+After that, the government didn't take the efficient means to control the epidemic, which cause a further increase in the number of infection cases.
+
+
+
+

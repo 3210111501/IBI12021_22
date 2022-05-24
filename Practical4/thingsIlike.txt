@@ -1,17 +1,20 @@
 I like my family very much.
+I like my teacher.
 I like my friends.
-I like my campus.
+I like disert.
+I like biology.
+I like to be the leader.
 I like dog.
+<<<<<<< HEAD
+I like handcrafts.
+I like drawing picture.
+=======
 I like autumn.
 I like hand-crafts.
 I like the feeling being liked by all people around.
-<<<<<<< HEAD
-I like to be the leader.
-I like cooking.
-=======
 I like making food.
 I like stay by myself.
 I like doing experiment.
 I like working hard.
-I don't like eating food.
+I don't like eating too much food.
 >>>>>>> Alex

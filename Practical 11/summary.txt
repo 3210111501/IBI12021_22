@@ -1,0 +1,10 @@
+The alignment score between 
+human and mouse is 1490,
+human and random is -351,
+mouse and random is -348.
+The percentage of identical amino acids between
+human and mouse is 0.965,
+human and random is 0.027,
+mouse and random is 0.031.
+The homeodomain protein DlX5 is an activator of Runx2 (a key regulator of osteogenesis) and is thought to be an important regulator of bone formation (Samee et al., 2008). The alignment results show that in the human and mouse cell, the sequences of the DLX5 protein are very similar to each other. And if you randomly choose another protein sequence, the possibility for them to be similar is very low, which means that the similarity between the human and mouse DLX5 protein is not caused by accident. 
+This may indicate that during the evolutionary, this protein didn't change too much because of its important function. So it was kept in most of the species.

@@ -22,6 +22,8 @@ For Practical 6
 paternal age effect.py
 I creat a dictionary and make the data of different paternal age correspond to the data of their offspring, so that when the input is changed, the frequency table can match the input.
 And I forgot to label the plot, so I add the labels.
+After that, I write two lines to let the user input a nuber as the age of father, and correspond to the value of the risks of offspring. 
+Finally, output the risk of offspring and relative age of father.
 
 list manipulation.py
 Add the labels.

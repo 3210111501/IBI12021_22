@@ -64,17 +64,27 @@ for term in terms:
         translation.append(total_child)
     total.append(total_child)
     
-#draw the first chart
-x=total
-plt.boxplot(x,vert=True,whis=1.5,patch_artist=True,meanline=True,showbox=True,showcaps=True,showfliers=False,notch=False)
-plt.title("The total childNodes of terms")
+# draw the first chart (One with outliner, one without)
+x = total
+plt.boxplot(x, vert=True, whis=1.5, patch_artist=True, meanline=True, showbox=True, showcaps=True, showfliers=True, notch=False)
+plt.title("The distribution of child nodes across terms in the Gene Ontology")
 plt.ylabel('childNodes number')
 plt.show()
-#draw the second chart
-x1=translation
-plt.boxplot(x1,vert=True,whis=1.5,patch_artist=True,meanline=True,showbox=True,showcaps=True,showfliers=False,notch=False)
+plt.boxplot(x, vert=True, whis=1.5, patch_artist=True, meanline=True, showbox=True, showcaps=True, showfliers=False, notch=False)
+plt.title("The distribution of child nodes across terms in the Gene Ontology")
 plt.ylabel('childNodes number')
 plt.show()
+# draw the second chart (One with outliner, one without)
+x1 = translation
+plt.boxplot(x1, vert=True, whis=1.5, patch_artist=True, meanline=True, showbox=True, showcaps=True, showfliers=True, notch=False)
+plt.ylabel('childNodes number')
+plt.title('The distribution of child nodes across terms in teh Gene Ontology')
+plt.show()
+plt.boxplot(x1, vert=True, whis=1.5, patch_artist=True, meanline=True, showbox=True, showcaps=True, showfliers=False, notch=False)
+plt.ylabel('childNodes number')
+plt.title('The distribution of child nodes across terms in teh Gene Ontology')
+plt.show()
+
 #calculate whether the 'translation' terms contain, on average, a greater or small number of child nodes than the overall Gene Ontology
 avr_total = sum(total) / len(total)
 avr_trans = sum(translation) / len(translation)

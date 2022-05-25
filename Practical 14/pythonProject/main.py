@@ -11,45 +11,59 @@ print(number_term)
 #The loop are written under the instruction of Weilun Du
 #set a dictionary
 is_a_dictionary = {}
-#creat a list tag_is_a
-term_is_a=[]
+#run the loop for all the terms in terms
 for term in terms:
-    is_as = []
-    IS_a = term.getElementsByTagName('is_a')
-    for q in IS_a:
-        is_a = q.childNodes[0].data
-        is_as.append(is_a)
-        if is_a in term_is_a:
-            is_a_dictionary[is_a].append(term.getElementsByTagName('id')[0].childNodes[0].data)
+    #creat a list called term_is_a
+    term_is_a= []
+    #find all the terms with tag <is_a>
+    is_a_ = term.getElementsByTagName('is_a')
+    for term1 in is_a_:
+        #find the id of term1 in is_a_
+        id1 = term1.childNodes[0].data
+        #input the ids we found into the list term_is_a
+        term_is_a.append(id1)
+        # if one id have been input into is_a_dictionary, append the nwe childNode id to the value of this id key
+        if id1 in is_a_dictionary:
+            is_a_dictionary[id1].append(term.getElementsByTagName('id')[0].childNodes[0].data)
+        # if one id is new to is_a_dictionary, add it to the dictionary as the key and corresponding value is its childNode id
         else:
-            is_a_dictionary[is_a] = [term.getElementsByTagName('id')[0].childNodes[0].data]
+            is_a_dictionary[id1] = [term.getElementsByTagName('id')[0].childNodes[0].data]
 
 
-def function1(p):
-    #creat a dic to store all teh childNodes as keys in it
-    global term1_is_a
+def function1(x):
+    #creat a another dictionary, the key of the dictionary are the childNode id of one id of terms
+    global is_a_dictionary_1
     #for all terms of parentalNode
-    for term1 in term_is_a[p]:
-        if term1 not in term1_is_a:
-            term1_is_a[term1]=0
-            #if the childNode also act as a parantalNode, conduct it again
-            if term1 in term_is_a:
-                function1(term1)
-    #return the childNode number
-    return len(term1_is_a)
+    for term2 in is_a_dictionary[x]:
+        #add the id of childNode of one terms to the is_a_dictionary_1
+        if term2 not in is_a_dictionary_1:
+            #and give this key a random value
+            is_a_dictionary_1[term2]=0
+            #if the childNode also act as a parantalNode, conduct it again to find its childNode
+            if term2 in is_a_dictionary:
+                function1(term2)
+    #return all the childNode number
+    return len(is_a_dictionary_1)
 
+#set two list to input data
 total = []
 translation = []
+#input the
 for term in terms:
-    ids = term.getElementsByTagName('id')[0].childNodes[0].data
+    #find all the childNode id of one term in terms
+    id2 = term.getElementsByTagName('id')[0].childNodes[0].data
+    #find all the terms with <defstr> tag
     defstr = term.getElementsByTagName('defstr')[0]
-    child_dic = {}
+    is_a_dictionary_1={}
     total_child = 0
-    if ids in term_is_a:
-        total_child = function1(ids)
+    #use a loop to check all the id2, if it text contain word 'tanslation', put it into the list called translation
+    if id2 in is_a_dictionary:
+        total_child = function1(id2)
+    #pay attention to that the word 'Translation' may be at the begainning of the sentence
     if "translation" in defstr.childNodes[0].data or "Translation" in defstr.childNodes[0].data:
         translation.append(total_child)
     total.append(total_child)
+    
 #draw the first chart
 x=total
 plt.boxplot(x,vert=True,whis=1.5,patch_artist=True,meanline=True,showbox=True,showcaps=True,showfliers=False,notch=False)

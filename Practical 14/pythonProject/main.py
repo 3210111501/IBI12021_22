@@ -73,7 +73,7 @@ plt.show()
 #draw the second chart
 x1=translation
 plt.boxplot(x1,vert=True,whis=1.5,patch_artist=True,meanline=True,showbox=True,showcaps=True,showfliers=False,notch=False)
-plt.ylabel('childnodes number')
+plt.ylabel('childNodes number')
 plt.show()
 #calculate whether the 'translation' terms contain, on average, a greater or small number of child nodes than the overall Gene Ontology
 avr_total = sum(total) / len(total)
